@@ -32,12 +32,12 @@ func main() {
 
 	// create 2D space
 	twoDimPlane := api.NewTwoDimPlane()
-	if len(request.Rectangles) > 10 {
-		request.Rectangles = request.Rectangles[:10]
-	}
 
 	// add rectangles to the 2D space
 	twoDimPlane.AddRectangles(request)
+	if len(request.Rectangles) > 10 {
+		request.Rectangles = request.Rectangles[:10]
+	}
 
 	n := len(twoDimPlane.Rectangles)
 	fmt.Println("\nInput:")
