@@ -1,5 +1,5 @@
 # intersecting-rectangles
-Intersecting Rectangles 
+Intersecting Rectangles : Sample cli app to find intersecting rectangles in two dimmension.
 
 ### Build and Run
 ```bash
